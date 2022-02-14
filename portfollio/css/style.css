@@ -353,29 +353,20 @@ Ma sidebar
   }
 }
 
-@media screen and (max-height: 603px) {
-  .sidebar {
-    width: 65%;
-  }
-
-  .sidebar .btn {
-    display: flex;
-    flex-direction: row;
-    height: auto;
-    padding: 5px;
-  }
-
-  .sidebar .allBtn {
-    height: 100%;
-    text-align: center;
-    align-items: center;
-    margin-left: 5px;
-  }
-
-  .sidebar .icon {
-    padding: 0px;
+@media screen and (min-width: 800px) {
+  @media screen and (min-height: 600px) {
+    .sidebar .btn .allBtn {
+      padding: 1px;
+    }
+    .sidebar .icon {
+      padding: 0px;
+    }
+    .sidebar .foot {
+      padding: 5px;
+    }
   }
 }
+
 /* ========================================================================================================
 Ma navbar
 ======================================================================================================== */
