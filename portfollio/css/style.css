@@ -107,7 +107,7 @@ Accueil
   transform: translate(50%, -50%);
   color: white;
   font-size: 20px;
-  width: 55%;
+  width: 65%;
   text-align: center;
 }
 
@@ -298,6 +298,57 @@ Ma sidebar
 
     .sidebar .icon {
       padding: 0px;
+    }
+  }
+}
+
+@media screen and (min-width: 280px) {
+  @media screen and (min-height: 653px) {
+    .sidebar .img .placeImg img {
+      width: 70%;
+    }
+
+    .sidebar .btn .allBtn {
+      padding: 1px;
+    }
+    .sidebar .icon {
+      padding: 5px;
+    }
+  }
+}
+
+@media screen and (min-width: 375px) {
+  @media screen and (min-height: 667px) {
+    .sidebar .img .placeImg img {
+      width: 60%;
+    }
+    .sidebar .btn .allBtn {
+      padding: 5px;
+    }
+    .sidebar .icon {
+      padding: 5px;
+    }
+  }
+}
+
+@media screen and (min-width: 360px) {
+  @media screen and (min-height: 740px) {
+    .sidebar .btn .allBtn {
+      padding: 10px;
+    }
+    .sidebar .icon {
+      padding: 2px;
+    }
+  }
+}
+
+@media screen and (min-width: 390px) {
+  @media screen and (min-height: 844px) {
+    .sidebar .btn .allBtn {
+      padding: 15px;
+    }
+    .sidebar .icon {
+      padding: 5px;
     }
   }
 }
@@ -618,7 +669,7 @@ competences
 @media screen and (min-width: 390px) {
   @media screen and (min-height: 844px) {
     .competences .content-skill {
-      height: 130vh;
+      height: 150vh;
     }
   }
 }
@@ -626,6 +677,13 @@ competences
 @media screen and (min-height: 850px) {
   .competences .content-skill {
     height: 120vh;
+  }
+  @media screen and (min-width: 414px) {
+    @media screen and (min-height: 896px) {
+      .competences .content-skill {
+        height: 140vh;
+      }
+    }
   }
 }
 
